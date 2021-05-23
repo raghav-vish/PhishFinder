@@ -1,0 +1,7 @@
+url,result
+https://www.google.com,"{'predictions': [{'fields': ['prediction', 'probability'], 'values': [[0, [0.9981603865307493, 0.0018396134692506665]]]}]}"
+https://www.reddit.com,"{'predictions': [{'fields': ['prediction', 'probability'], 'values': [[0, [0.8825242767527381, 0.11747572324726191]]]}]}"
+https://jollybeef.xyz/amazonEaster/tb.php?_t=1620630672,"{'predictions': [{'fields': ['prediction', 'probability'], 'values': [[1, [0.016313210597709515, 0.9836867894022905]]]}]}"
+https://www.youtube.com,"{'predictions': [{'fields': ['prediction', 'probability'], 'values': [[0, [0.7884795022227842, 0.21152049777721577]]]}]}"
+https://www.twitter.com/,"{'predictions': [{'fields': ['prediction', 'probability'], 'values': [[0, [0.9540759707002993, 0.045924029299700776]]]}]}"
+https://www.facebook.com,"{'predictions': [{'fields': ['prediction', 'probability'], 'values': [[0, [0.9989968814241167, 0.0010031185758833366]]]}]}"

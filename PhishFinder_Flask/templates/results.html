@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container2">
+		<form action="/" method="POST">
+			<div class="search-box">
+				<input type="text" class="search-box-input" name ="url" placeholder={{url}}>
+				<input type="submit" value="">
+					<button class="search-box-btn">
+						<img src="{{url_for('static', filename='download.png')}}">
+					</button>
+				</input>
+			</div>
+		</form>
+	</div>
+
+<div class="result">
+	<a href={{url}}>{{url}}</a>
+	{{res2}}
+</div>
+
+<div class="cards-list">
+	<div class="card 1">
+		<div class="card_image"><img src="{{url_for('static', filename='008000.png')}}"></div>
+		<div class="card_title title-white">
+			<p>{{chance}}% chance of being a legitimate website</p>
+		</div>
+	</div>
+
+	<div class="card 2">
+		<div class="card_image"><img src="{{url_for('static', filename='ff0000.png')}}"></div>
+		<div class="card_title title-white">
+			<p>{{chance2}}% chance of being a phishing website</p>
+		</div>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PhishFinder</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='js/main.js') }}">
+	{% block head %}{% endblock %}
+</head>
+<body>
+	<h1 class="h1">PhishFinder</h1>
+	<h2>Enter a URL to check whether it is legitimate or a phishing website</h2>
+	{% block body %}{% endblock %}
+</body>
+</html>
