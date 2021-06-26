@@ -1,4 +1,4 @@
-# PhishDetect
+# PhishFinder
 Detecting phishing website using machine learning
 
 Phishing is a type of attack where an attacker tricks the victim to give up sensitive information such as login credentials by disguising as a trustworthy entity. In this application we will try to detect a phishing website using the features that differentiates these domains from the legitimate ones. We will create our own dataset, train and test various machine learning models using Jupyter Notebooks on IBM Watson studio and deploy the best model to be used by the application for detection.
@@ -108,8 +108,8 @@ The steps should allow you to understand the dataset, analyze and visualize it. 
 ## Test a URL
 
 ```
-python check_url.py <url>
-```
+Run the Flask app present in the Flask folder and enter the URL in the website or run the check_url.py file with the URL as the argument
+ ```
 
 ## REFERNCES
 
